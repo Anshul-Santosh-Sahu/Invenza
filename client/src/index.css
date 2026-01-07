@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+/* -------------------------------------
+   THEME ANIMATIONS
+-------------------------------------- */
+@theme inline {
+  --animate-blob: blob 10s infinite;
+  --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+  @keyframes blob {
+    0% { transform: translate(0px, 0px) scale(1); }
+    33% { transform: translate(30px, -50px) scale(1.1); }
+    66% { transform: translate(-20px, 20px) scale(0.9); }
+    100% { transform: translate(0px, 0px) scale(1); }
+  }
+}
+
+/* -------------------------------------
+   GLOBAL VARIABLES
+-------------------------------------- */
+:root {
+  --radius: 0.625rem;
+  
+  /* Professional Dark Slate Palette */
+  --background: #020617; 
+  --foreground: #f8fafc;
+
+  --primary: #3b82f6;   /* Blue 500 */
+  --secondary: #6366f1; /* Indigo 500 */
+  
+  --border: rgba(255, 255, 255, 0.1);
+  --input: rgba(255, 255, 255, 0.1);
+}
+
+/* -------------------------------------
+   BASE STYLES
+-------------------------------------- */
+@layer base {
+  *, ::after, ::before {
+    /* FIX: Replaced '@apply border-border' with standard CSS property to prevent build error */
+    border-color: var(--border);
+    @apply transition-colors duration-300;
+  }
+  
+  body {
+    @apply bg-[#020617] text-slate-100 antialiased overflow-hidden selection:bg-blue-500/30;
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(59, 130, 246, 0.5); /* Blue hover */
+  }
+}
+
+/* -------------------------------------
+   CUSTOM COMPONENT CLASSES
+-------------------------------------- */
+@layer components {
+  
+  /* Glass Card Effect - Updated for Slate Theme */
+  .glass-panel {
+    @apply bg-slate-900/60 backdrop-blur-xl border border-slate-800 shadow-xl;
+  }
+  
+  /* Inputs - Updated for Slate Theme */
+  .glass-input {
+    @apply bg-slate-950 border border-slate-800 text-slate-100 rounded-lg px-4 py-2 
+           focus:outline-none focus:border-blue-500/50 focus:ring-1 focus:ring-blue-500/50 
+           placeholder-slate-500 transition-all;
+  }
+
+  /* Primary Button - Updated for Slate/Blue Theme */
+  .btn-primary {
+    @apply bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-medium 
+           px-4 py-2 rounded-lg 
+           hover:shadow-[0_0_20px_rgba(59,130,246,0.4)] hover:scale-[1.02] active:scale-95
+           transition-all flex items-center justify-center gap-2 cursor-pointer;
+  }
+}
