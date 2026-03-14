@@ -94,19 +94,19 @@ http://localhost:5173
 
 1. Dashboard
 
-Displays an overview of inventory statistics and analytics.
+    Displays an overview of inventory statistics and analytics.
 
 2. Products
 
-Allows users to manage product inventory including adding, updating, and removing products.
+    Allows users to manage product inventory including adding, updating, and removing products.
 
 3. Customers
 
-Manage customer details and interactions.
+    Manage customer details and interactions.
 
 4. Analytics
 
-Provides insights and data visualization for inventory operations.
+    Provides insights and data visualization for inventory operations.
 
 ---
 
@@ -126,9 +126,13 @@ The demo showcases:
 ## Future Improvements
 
 • Role-based access control
+
 • Backend API integration
+
 • Inventory alerts and notifications
+
 • Export reports (PDF/CSV)
+
 • Cloud deployment
 
 ---
