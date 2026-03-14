@@ -26,13 +26,13 @@ Frontend
 - Tailwind CSS
 - JavaScript (ES6+)
 
-Libraries & Tools
+## Libraries & Tools
 - React Context API (State Management)
 - Axios / API Utilities
 - ESLint
 - PostCSS
 
-Project Structure
+## Project Structure
 ```
 
 ```
@@ -57,29 +57,29 @@ NInvenza
 ```
 
 ```
-Installation and Setup
+## Installation and Setup
 
 1. Clone the Repository
 
 ```
-### git clone https://github.com/your-username/invenza.git
+git clone https://github.com/Anshul-Santosh-Sahu/invenza.git
 ```
 
 2. Navigate to the Project
 ```
-### cd invenza/client
+cd invenza/client
 ```
 
 3. Install Dependencies
 
 ```
-### npm install
+npm install
 ```
 
 4. Run the Development Server
 
 ```
-### npm run dev
+npm run dev
 ```
 
 The application will run at:
@@ -123,7 +123,7 @@ The demo showcases:
 - Customer management
 - Analytics features
 
-Future Improvements
+## Future Improvements
 
 • Role-based access control
 • Backend API integration
@@ -133,7 +133,7 @@ Future Improvements
 
 ---
 
-Author
+## Author
 
 **Anshul Santosh Sahu**
 
