@@ -33,10 +33,8 @@ Frontend
 - PostCSS
 
 ## Project Structure
-```
 
-```
-NInvenza
+### NInvenza
 │
 
 ├──client
@@ -70,9 +68,7 @@ NInvenza
 │   ├── package.json
 
 │   └── vite.config.js
-```
 
-```
 ## Installation and Setup
 
 1. Clone the Repository
