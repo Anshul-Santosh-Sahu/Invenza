@@ -90,21 +90,21 @@ http://localhost:5173
 
 ---
 
-Application Modules
+## Application Modules
 
-Dashboard
+1. Dashboard
 
 Displays an overview of inventory statistics and analytics.
 
-Products
+2. Products
 
 Allows users to manage product inventory including adding, updating, and removing products.
 
-Customers
+3. Customers
 
 Manage customer details and interactions.
 
-Analytics
+4. Analytics
 
 Provides insights and data visualization for inventory operations.
 
@@ -151,5 +151,3 @@ Interested in:
 ## License
 
 This project is created for educational and learning purposes.
-
-```
