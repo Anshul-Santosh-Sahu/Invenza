@@ -56,32 +56,30 @@ NInvenza
 │   └── vite.config.js
 ```
 
----
+```
+Installation and Setup
 
-## Installation and Setup
-
-### 1. Clone the Repository
+1. Clone the Repository
 
 ```
-git clone https://github.com/your-username/invenza.git
+### git clone https://github.com/your-username/invenza.git
 ```
 
-### 2. Navigate to the Project
-
+2. Navigate to the Project
 ```
-cd invenza/client
-```
-
-### 3. Install Dependencies
-
-```
-npm install
+### cd invenza/client
 ```
 
-### 4. Run the Development Server
+3. Install Dependencies
 
 ```
-npm run dev
+### npm install
+```
+
+4. Run the Development Server
+
+```
+### npm run dev
 ```
 
 The application will run at:
@@ -92,25 +90,26 @@ http://localhost:5173
 
 ---
 
-## Application Modules
+Application Modules
 
-### Dashboard
+Dashboard
 
 Displays an overview of inventory statistics and analytics.
 
-### Products
+Products
 
 Allows users to manage product inventory including adding, updating, and removing products.
 
-### Customers
+Customers
 
 Manage customer details and interactions.
 
-### Analytics
+Analytics
 
 Provides insights and data visualization for inventory operations.
 
 ---
+
 ## Project Demo
 
 A demonstration of the **Invenza** is available on my LinkedIn profile.
@@ -124,7 +123,7 @@ The demo showcases:
 - Customer management
 - Analytics features
 
-## Future Improvements
+Future Improvements
 
 • Role-based access control
 • Backend API integration
@@ -134,7 +133,7 @@ The demo showcases:
 
 ---
 
-## Author
+Author
 
 **Anshul Santosh Sahu**
 
